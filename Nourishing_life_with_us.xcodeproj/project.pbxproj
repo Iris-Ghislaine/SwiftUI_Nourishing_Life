@@ -27,6 +27,7 @@
 		C09B44412EC217A100CE0ACA /* Nourishing_life_with_us.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nourishing_life_with_us.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09B44522EC217A300CE0ACA /* Nourishing_life_with_usTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nourishing_life_with_usTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09B445C2EC217A300CE0ACA /* Nourishing_life_with_usUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nourishing_life_with_usUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09B44932EC235D700CE0ACA /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +44,21 @@
 		C09B445F2EC217A300CE0ACA /* Nourishing_life_with_usUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Nourishing_life_with_usUITests;
+			sourceTree = "<group>";
+		};
+		C09B448F2EC2352E00CE0ACA /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C09B44902EC2353100CE0ACA /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C09B44912EC2353500CE0ACA /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +91,14 @@
 		C09B44382EC217A100CE0ACA = {
 			isa = PBXGroup;
 			children = (
+				C09B44922EC235C000CE0ACA /* models */,
+				C09B44902EC2353100CE0ACA /* ViewModels */,
+				C09B44912EC2353500CE0ACA /* Services */,
 				C09B44432EC217A100CE0ACA /* Nourishing_life_with_us */,
 				C09B44552EC217A300CE0ACA /* Nourishing_life_with_usTests */,
 				C09B445F2EC217A300CE0ACA /* Nourishing_life_with_usUITests */,
 				C09B44422EC217A100CE0ACA /* Products */,
+				C09B448F2EC2352E00CE0ACA /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +110,14 @@
 				C09B445C2EC217A300CE0ACA /* Nourishing_life_with_usUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C09B44922EC235C000CE0ACA /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C09B44932EC235D700CE0ACA /* Types.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +137,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C09B44432EC217A100CE0ACA /* Nourishing_life_with_us */,
+				C09B448F2EC2352E00CE0ACA /* Views */,
+				C09B44902EC2353100CE0ACA /* ViewModels */,
+				C09B44912EC2353500CE0ACA /* Services */,
 			);
 			name = Nourishing_life_with_us;
 			packageProductDependencies = (
